@@ -143,6 +143,177 @@ const WHY_KALAA_ITEMS = [
   },
 ];
 
+const SERVICE_ITEMS = [
+  {
+    title: "Complimentary shipping",
+    copy: "On every order over ₹4,999, shipped plastic-free across India.",
+    icon: (
+      <>
+        <path d="M2 15h11V6H2v9Z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" />
+        <path d="M13 9h4l3 3v3h-7V9Z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" />
+        <circle cx="6" cy="17.5" r="1.6" stroke="currentColor" strokeWidth="1.3" />
+        <circle cx="16.5" cy="17.5" r="1.6" stroke="currentColor" strokeWidth="1.3" />
+      </>
+    ),
+  },
+  {
+    title: "15-day easy returns",
+    copy: "Changed your mind? Send it back within a fortnight, no questions.",
+    icon: (
+      <>
+        <path d="M4 8a8 8 0 1 1-1.2 4.3" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" />
+        <path d="M2 4v4h4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+      </>
+    ),
+  },
+  {
+    title: "Secure payments",
+    copy: "UPI, cards and net banking, encrypted end to end at checkout.",
+    icon: (
+      <>
+        <rect x="2.5" y="4.5" width="17" height="13" rx="2" stroke="currentColor" strokeWidth="1.3" />
+        <path d="M2.5 8.5h17" stroke="currentColor" strokeWidth="1.3" />
+        <path d="M5.5 13.5h4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" />
+      </>
+    ),
+  },
+  {
+    title: "Talk to a person",
+    copy: "Message us on WhatsApp, Mon–Sat, 10am to 7pm IST.",
+    icon: (
+      <>
+        <path d="M11 2.5a8.5 8.5 0 0 0-7.3 12.8L2.5 19.5l4.4-1.1A8.5 8.5 0 1 0 11 2.5Z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" />
+        <path d="M8 8.5c0 3 2.5 5.5 5.5 5.5l1-1.4-1.9-1-.9.9c-1-.4-1.8-1.2-2.2-2.2l.9-.9-1-1.9L8 8.5Z" stroke="currentColor" strokeWidth="1.1" strokeLinejoin="round" />
+      </>
+    ),
+  },
+];
+
+const SHOP_BY_ROOM = [
+  {
+    img: "https://images.unsplash.com/photo-1616486338815-1ff81b3b3a1e?w=900&q=80&auto=format&fit=crop",
+    alt: "Living room with a low wooden table, ceramics and a woven jute rug",
+    name: "The Living Room",
+    count: "48 pieces",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=900&q=80&auto=format&fit=crop",
+    alt: "Kitchen shelf styled with handmade stoneware plates and bowls",
+    name: "Kitchen & Dining",
+    count: "63 pieces",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1616627981276-b48d485ecf24?w=900&q=80&auto=format&fit=crop",
+    alt: "Bedroom with block-printed linen and a brass bedside lamp",
+    name: "The Bedroom",
+    count: "37 pieces",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=900&q=80&auto=format&fit=crop",
+    alt: "Study desk with carved wooden accessories and a reading lamp",
+    name: "Study & Workspace",
+    count: "24 pieces",
+  },
+];
+
+const CRAFT_PROCESS = [
+  {
+    n: "01",
+    title: "Sourcing the raw",
+    copy: "Clay from the banks of the Sabarmati, cotton from Kutch, timber reclaimed from old Chettinad homes.",
+  },
+  {
+    n: "02",
+    title: "Shaping by hand",
+    copy: "Thrown on the wheel, woven on the loom, or carved with a chisel — the maker's mark stays visible.",
+  },
+  {
+    n: "03",
+    title: "Firing & finishing",
+    copy: "Wood-fired kilns and natural dyes. Each glaze is mixed in the studio, never bought by the barrel.",
+  },
+  {
+    n: "04",
+    title: "Checked & wrapped",
+    copy: "Inspected twice, cushioned in offcut fabric, and boxed without a scrap of plastic before it ships.",
+  },
+];
+
+const JOURNAL_POSTS = [
+  {
+    img: "https://images.unsplash.com/photo-1509391618207-30dbdca94c99?w=800&q=80&auto=format&fit=crop",
+    alt: "Potter's hands centring clay on a spinning wheel",
+    category: "Craft Notes",
+    title: "Why no two of our glazes ever match",
+    excerpt: "The short answer is ash, iron and a wood fire that no one fully controls. The longer answer is more interesting.",
+    read: "6 min read",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1528283648649-33347faa5d9e?w=800&q=80&auto=format&fit=crop",
+    alt: "Indigo-dyed cotton drying on a line in the sun",
+    category: "The Makers",
+    title: "A day in Bhuj with the Khatri family",
+    excerpt: "Three generations, one vat of indigo, and a printing block cut by hand in 1974 that is still in daily use.",
+    read: "8 min read",
+  },
+  {
+    img: "https://images.unsplash.com/photo-1616137466211-f939a420be84?w=800&q=80&auto=format&fit=crop",
+    alt: "Styled shelf with layered ceramics, books and a small plant",
+    category: "At Home",
+    title: "Styling open shelves without the clutter",
+    excerpt: "A few rules we keep coming back to: odd numbers, room to breathe, and one thing that has no job but to be looked at.",
+    read: "5 min read",
+  },
+];
+
+const PRESS_MENTIONS = [
+  { name: "Architectural Digest", quote: "Quietly redefining the handmade home." },
+  { name: "Elle Decor India", quote: "The studio pieces we keep coming back to." },
+  { name: "Vogue India", quote: "Slow craft, done exceptionally well." },
+  { name: "Design Pataki", quote: "A rare marriage of ethics and beauty." },
+  { name: "The Voice of Fashion", quote: "Objects with a maker you can name." },
+];
+
+const STORE_LOCATIONS = [
+  {
+    city: "Bengaluru",
+    label: "Flagship Studio",
+    address: "14 Wood Street, Ashok Nagar, 560025",
+    hours: "Tue–Sun · 11am–8pm",
+  },
+  {
+    city: "Mumbai",
+    label: "Kala House",
+    address: "3 Rampart Row, Kala Ghoda, 400001",
+    hours: "Mon–Sun · 11am–9pm",
+  },
+  {
+    city: "New Delhi",
+    label: "The Loft",
+    address: "7 Meharchand Market, Lodhi Colony, 110003",
+    hours: "Tue–Sun · 11am–8pm",
+  },
+];
+
+const FAQS = [
+  {
+    q: "How long will my order take to arrive?",
+    a: "Most in-stock pieces ship within two working days and reach you in four to seven. Made-to-order items carry their timeline on the product page, usually two to four weeks.",
+  },
+  {
+    q: "Are the imperfections a defect?",
+    a: "No. Slight variations in glaze, weave and grain are the signature of handwork. We only set aside pieces with structural faults — everything you receive has passed a two-stage check.",
+  },
+  {
+    q: "Can I return something that isn't right?",
+    a: "Yes. You have 15 days from delivery to return unused pieces in their original packaging for a full refund. We arrange the pickup ourselves.",
+  },
+  {
+    q: "Do you ship outside India?",
+    a: "We ship to 20 countries. International rates and duties are calculated at checkout, and everything travels in the same plastic-free packaging.",
+  },
+];
+
 const INSTAGRAM_PHOTOS = [
   {
     src: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=500&q=80&auto=format&fit=crop",
@@ -462,6 +633,27 @@ export default function Home() {
       </section>
 
       {/* ============================== */}
+      {/* SERVICE STRIP — quiet trust row under the hero */}
+      {/* ============================== */}
+      <section aria-label="Our promises" className="border-b border-[#E4DDD0]/70">
+        <div className="max-w-[1280px] mx-auto px-6">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-[#E4DDD0]/70">
+            {SERVICE_ITEMS.map((item) => (
+              <li key={item.title} className="flex items-start gap-4 py-8 sm:px-8 lg:px-10 first:pl-0 last:pr-0">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" className="block shrink-0 mt-0.5 text-[#B5502D]" aria-hidden="true">
+                  {item.icon}
+                </svg>
+                <div>
+                  <h3 className="text-sm font-medium tracking-[0.02em] text-[#24211D] mb-1.5">{item.title}</h3>
+                  <p className="text-sm leading-6 text-[#6B6459] max-w-[240px]">{item.copy}</p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* ============================== */}
       {/* EDITORIAL STRIP — brand philosophy, quiet, centered */}
       {/* ============================== */}
       <section className="max-w-[720px] mx-auto px-6 py-28 lg:py-40 text-center">
@@ -518,6 +710,44 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent" />
               <span className="absolute bottom-6 left-6 font-serif text-2xl text-[#FAF7F2]">Ceramics</span>
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================== */}
+      {/* SHOP BY ROOM — four vertical portals */}
+      {/* ============================== */}
+      <section className="bg-[#F1EAE0] py-28 lg:py-40">
+        <div className="max-w-[1280px] mx-auto px-6">
+          <div className="max-w-[560px] mb-14">
+            <p className="text-sm tracking-[0.14em] uppercase text-[#6B6459] mb-3">Room by Room</p>
+            <h2 className="font-serif text-3xl sm:text-4xl text-[#24211D] mb-6">Shop by Room</h2>
+            <p className="text-[17px] leading-8 text-[#4B473F]">
+              Start where you spend your time. Each edit is styled by our own team, so the pieces sit together the way they will at home.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
+            {SHOP_BY_ROOM.map((room) => (
+              <a
+                href="#"
+                key={room.name}
+                className="group relative overflow-hidden rounded-[8px] aspect-[3/4] block transition-shadow duration-[400ms] ease-[cubic-bezier(0.16,1,0.3,1)] hover:shadow-[0_20px_40px_-16px_rgba(36,33,29,0.18)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#24211D] focus-visible:ring-offset-2 focus-visible:ring-offset-[#F1EAE0]"
+              >
+                <FadeImage
+                  src={room.img}
+                  alt={room.alt}
+                  hoverScale
+                  sizes="(min-width: 1024px) 23vw, 50vw"
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.04]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <h3 className="font-serif text-xl sm:text-2xl text-[#FAF7F2] mb-1">{room.name}</h3>
+                  <p className="text-xs tracking-[0.08em] uppercase text-[#F1EAE0]/85">{room.count}</p>
+                </div>
+              </a>
+            ))}
           </div>
         </div>
       </section>
@@ -597,6 +827,45 @@ export default function Home() {
               </div>
             </a>
           ))}
+        </div>
+      </section>
+
+      {/* ============================== */}
+      {/* CRAFTSMANSHIP PROCESS — image left, numbered steps right */}
+      {/* ============================== */}
+      <section className="border-t border-[#E4DDD0]/70">
+        <div className="max-w-[1280px] mx-auto px-6 py-28 lg:py-40">
+          <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+            <div className="lg:col-span-5 lg:sticky lg:top-28">
+              <p className="text-sm tracking-[0.14em] uppercase text-[#6B6459] mb-3">From Earth to Shelf</p>
+              <h2 className="font-serif text-3xl sm:text-4xl leading-[1.15] text-[#24211D] mb-8">
+                How a Kalaa piece is made
+              </h2>
+              <p className="text-[17px] leading-8 text-[#4B473F] mb-10 max-w-[400px]">
+                Nothing here is rushed. A single stoneware jug can pass through four sets of hands over eleven days before it earns a box.
+              </p>
+              <div className="relative overflow-hidden rounded-[8px] aspect-[4/3]">
+                <FadeImage
+                  src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=1000&q=80&auto=format&fit=crop"
+                  alt="Artisan's hands smoothing the rim of a freshly thrown clay bowl"
+                  sizes="(min-width: 1024px) 40vw, 100vw"
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              </div>
+            </div>
+
+            <div className="lg:col-span-6 lg:col-start-7 divide-y divide-[#E4DDD0]/70 border-t border-[#E4DDD0]/70">
+              {CRAFT_PROCESS.map((step) => (
+                <div key={step.n} className="grid grid-cols-[auto_1fr] gap-6 sm:gap-8 py-9">
+                  <span className="font-serif text-2xl text-[#B5502D] leading-none pt-1">{step.n}</span>
+                  <div>
+                    <h3 className="font-serif text-2xl text-[#24211D] mb-3">{step.title}</h3>
+                    <p className="text-base leading-8 text-[#4B473F] max-w-[440px]">{step.copy}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -685,6 +954,52 @@ export default function Home() {
       </section>
 
       {/* ============================== */}
+      {/* JOURNAL — three editorial article cards */}
+      {/* ============================== */}
+      <section className="border-t border-[#E4DDD0]/70">
+        <div className="max-w-[1280px] mx-auto px-6 py-28 lg:py-40">
+          <div className="flex items-end justify-between mb-14">
+            <div>
+              <p className="text-sm tracking-[0.14em] uppercase text-[#6B6459] mb-3">The Journal</p>
+              <h2 className="font-serif text-3xl sm:text-4xl text-[#24211D]">Notes from the Studio</h2>
+            </div>
+            <a href="#" className="hidden sm:block text-sm text-[#24211D] border-b border-[#24211D] pb-0.5 hover:text-[#B5502D] hover:border-[#B5502D] transition-[color,border-color,box-shadow] duration-200 ease-out focus:outline-none focus-visible:text-[#B5502D] focus-visible:border-[#B5502D]">
+              All Stories
+            </a>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14">
+            {JOURNAL_POSTS.map((post) => (
+              <a
+                href="#"
+                key={post.title}
+                className="group block focus:outline-none focus-visible:ring-2 focus-visible:ring-[#24211D] focus-visible:ring-offset-4 rounded-[4px]"
+              >
+                <div className="relative overflow-hidden rounded-[8px] aspect-[3/2] mb-6 transition-shadow duration-[400ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:shadow-[0_16px_32px_-14px_rgba(36,33,29,0.16)]">
+                  <FadeImage
+                    src={post.img}
+                    alt={post.alt}
+                    hoverScale
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-[1.03]"
+                  />
+                </div>
+                <div className="flex items-center gap-3 text-xs tracking-[0.1em] uppercase text-[#6B6459] mb-3">
+                  <span className="text-[#B5502D]">{post.category}</span>
+                  <span aria-hidden="true">·</span>
+                  <span>{post.read}</span>
+                </div>
+                <h3 className="font-serif text-2xl text-[#24211D] leading-snug mb-3 group-hover:text-[#B5502D] transition-colors duration-200 ease-out">
+                  {post.title}
+                </h3>
+                <p className="text-base leading-7 text-[#4B473F] max-w-[380px]">{post.excerpt}</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============================== */}
       {/* CUSTOMER HOMES — masonry-feel image grid with quotes */}
       {/* ============================== */}
       <section className="bg-[#F1EAE0] py-28 lg:py-40">
@@ -737,6 +1052,93 @@ export default function Home() {
               <p className="text-sm text-[#6B6459]">Farah, Ahmedabad</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* ============================== */}
+      {/* PRESS — quiet band of mentions with pull-quotes */}
+      {/* ============================== */}
+      <section aria-label="Press mentions" className="border-t border-[#E4DDD0]/70">
+        <div className="max-w-[1280px] mx-auto px-6 py-24 lg:py-28">
+          <p className="text-sm tracking-[0.14em] uppercase text-[#6B6459] text-center mb-14">As Seen In</p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-12">
+            {PRESS_MENTIONS.map((item) => (
+              <div key={item.name} className="text-center">
+                <p className="font-serif text-xl text-[#24211D] mb-3">{item.name}</p>
+                <p className="text-sm leading-6 text-[#6B6459] max-w-[200px] mx-auto">
+                  &ldquo;{item.quote}&rdquo;
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ============================== */}
+      {/* STORE LOCATIONS — three physical studios */}
+      {/* ============================== */}
+      <section className="bg-[#24211D] text-[#FAF7F2]">
+        <div className="max-w-[1280px] mx-auto px-6 py-28 lg:py-40">
+          <div className="grid lg:grid-cols-12 gap-12 lg:gap-16">
+            <div className="lg:col-span-4">
+              <p className="text-sm tracking-[0.14em] uppercase text-[#B5502D] mb-6">Come Say Hello</p>
+              <h2 className="font-serif text-3xl sm:text-4xl leading-[1.15] text-[#FAF7F2] mb-8">
+                Three studios, each stocked a little differently
+              </h2>
+              <p className="text-[17px] leading-8 text-[#C9C2B4] mb-10 max-w-[380px]">
+                Handle the pieces, meet the team, and see the current collection in the light of the room it was made for.
+              </p>
+              <a
+                href="#"
+                className="inline-block text-base font-medium text-[#FAF7F2] border-b border-[#FAF7F2] pb-1 hover:text-[#F1EAE0] hover:border-[#F1EAE0] transition-[color,border-color,box-shadow] duration-200 ease-out focus:outline-none focus-visible:text-[#F1EAE0] focus-visible:border-[#F1EAE0]"
+              >
+                Get directions
+              </a>
+            </div>
+
+            <div className="lg:col-span-7 lg:col-start-6 grid sm:grid-cols-3 gap-10 sm:gap-8">
+              {STORE_LOCATIONS.map((store) => (
+                <div key={store.city} className="border-t border-[#4B473F] pt-6">
+                  <h3 className="font-serif text-2xl text-[#FAF7F2] mb-1">{store.city}</h3>
+                  <p className="text-sm text-[#B5502D] mb-5">{store.label}</p>
+                  <p className="text-sm leading-7 text-[#C9C2B4]">{store.address}</p>
+                  <p className="text-sm leading-7 text-[#96907F] mt-3">{store.hours}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============================== */}
+      {/* FAQ — two-column, heading left, answers right */}
+      {/* ============================== */}
+      <section className="max-w-[1280px] mx-auto px-6 py-28 lg:py-40">
+        <div className="grid lg:grid-cols-12 gap-12 lg:gap-16">
+          <div className="lg:col-span-4">
+            <p className="text-sm tracking-[0.14em] uppercase text-[#6B6459] mb-3">Good to Know</p>
+            <h2 className="font-serif text-3xl sm:text-4xl leading-[1.15] text-[#24211D] mb-8">
+              Questions we&apos;re asked most
+            </h2>
+            <p className="text-[17px] leading-8 text-[#4B473F] mb-8 max-w-[340px]">
+              Can&apos;t find your answer? Our team replies to every message, usually within a few hours.
+            </p>
+            <a
+              href="#"
+              className="inline-block text-base font-medium tracking-[0.01em] text-[#24211D] border border-[#24211D] px-8 py-3.5 rounded-[4px] hover:bg-[#24211D] hover:text-[#FAF7F2] transition-[background-color,color,transform,box-shadow] duration-200 ease-out active:scale-[0.98] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#24211D] focus-visible:ring-offset-2"
+            >
+              Read all FAQs
+            </a>
+          </div>
+
+          <dl className="lg:col-span-7 lg:col-start-6 divide-y divide-[#E4DDD0]/70 border-t border-b border-[#E4DDD0]/70">
+            {FAQS.map((faq) => (
+              <div key={faq.q} className="py-8">
+                <dt className="font-serif text-xl sm:text-2xl text-[#24211D] mb-4 leading-snug">{faq.q}</dt>
+                <dd className="text-base leading-8 text-[#4B473F] max-w-[560px]">{faq.a}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </section>
 
@@ -810,8 +1212,19 @@ export default function Home() {
             <div className="lg:col-span-2">
               <a href="#" className="font-serif text-2xl text-[#24211D] transition-opacity duration-200 ease-out focus:outline-none focus-visible:opacity-70">Kalaa</a>
               <p className="text-base leading-7 text-[#6B6459] mt-4 max-w-[280px]">
-                Handmade objects from independent artisan studios across India.
+                Handmade objects from independent artisan studios across India. Established in Bengaluru, 2016.
               </p>
+              <div className="mt-6 space-y-2">
+                <a href="mailto:hello@kalaa.home" className="block text-sm text-[#24211D] hover:text-[#B5502D] transition-[color,box-shadow] duration-200 ease-out focus:outline-none focus-visible:text-[#B5502D]">
+                  hello@kalaa.home
+                </a>
+                <a href="tel:+918041234567" className="block text-sm text-[#24211D] hover:text-[#B5502D] transition-[color,box-shadow] duration-200 ease-out focus:outline-none focus-visible:text-[#B5502D]">
+                  +91 80 4123 4567
+                </a>
+                <p className="text-sm text-[#6B6459] pt-1 max-w-[280px] leading-7">
+                  14 Wood Street, Ashok Nagar, Bengaluru 560025
+                </p>
+              </div>
             </div>
 
             <div>
@@ -843,8 +1256,21 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="pt-8 border-t border-[#E4DDD0]/70 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-xs text-[#6B6459]">© 2026 Kalaa Home. Made across India.</p>
+          <div className="pt-8 border-t border-[#E4DDD0]/70 flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
+              <p className="text-xs text-[#6B6459]">© 2026 Kalaa Home. Made across India.</p>
+              <div className="flex items-center gap-2.5" aria-label="Accepted payment methods">
+                <span className="text-[10px] tracking-[0.06em] text-[#6B6459] uppercase">Secure payments</span>
+                {["UPI", "Visa", "Mastercard", "Amex"].map((m) => (
+                  <span
+                    key={m}
+                    className="text-[10px] tracking-[0.04em] text-[#6B6459] border border-[#E4DDD0] rounded-[3px] px-2 py-1 leading-none"
+                  >
+                    {m}
+                  </span>
+                ))}
+              </div>
+            </div>
             <div className="flex items-center gap-5">
               <a href="#" aria-label="Instagram" className="text-[#6B6459] hover:text-[#24211D] transition-[color,box-shadow] duration-200 ease-out focus:outline-none focus-visible:text-[#24211D]">
                 <svg width="17" height="17" viewBox="0 0 17 17" fill="none" className="block">
